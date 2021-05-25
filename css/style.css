@@ -153,6 +153,36 @@ body {
   margin-bottom: 3rem;
 }
 
+.ganhadores a{
+ padding: 10px 30px;
+ background-color: #9747c9;
+ border: none;
+ transition: 0.5s;
+ box-sizing: border-box;
+}
+
+.ganhadores  a {
+  display: block;
+  color: #222;
+  text-decoration: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: .1em;
+  transition: 1.5s;
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+.ganhadores a:hover{
+  background: whitesmoke;
+  border: 50px solid #9747c9;
+  border-top: none;
+  border-bottom: none;
+}
+
 .info-lista {
   grid-column: 2 / 4
 }
@@ -301,6 +331,17 @@ body {
   
 }
 
+.alunos h2::after{
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .8s infinite;
+  color: #22EE00;
+}
+
+.aluno2 h2::after{
+  color: tomato;
+}
 
 .js .js-tabcontent section {
   display: none;
