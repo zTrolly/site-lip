@@ -167,7 +167,7 @@ body {
   margin-bottom: 3rem;
 }
 
-.ganhadores a{
+.ganhadores .btn{
  padding: 10px 30px;
  background-color: #9747c9;
  border: none;
@@ -175,7 +175,11 @@ body {
  box-sizing: border-box;
 }
 
-.ganhadores  a {
+.ganhadores a{
+  color: #a668cc;
+}
+
+.ganhadores .btn{
   display: block;
   color: #222;
   text-decoration: none;
@@ -190,7 +194,7 @@ body {
   border: none;
 }
 
-.ganhadores a:hover{
+.ganhadores .btn:hover{
   background: whitesmoke;
   border: 50px solid #9747c9;
   border-top: none;
